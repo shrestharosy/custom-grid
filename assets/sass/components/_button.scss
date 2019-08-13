@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+
+  &--with-icon {
+    padding: 8px 12px 8px 30px;
+    background-color: $dark-gray;
+    color: $white;
+    position: relative;
+
+    &:before {
+      content: '';
+      background-image: url('/assets/images/sprites.svg');
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      left: 3px;
+    }
+
+    &.add {
+      &:before {
+        // co-ordinates of svg images
+        // background-position: 0 -24px;
+        background-position: 0 -24px;
+      }
+    }
+
+    &.import {
+      &:before {
+        background-position: 0 0;
+      }
+    }
+  }
+}
