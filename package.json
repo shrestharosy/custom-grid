@@ -6,16 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kcsuraj/frontend-starter-kit.git"
-  },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kcsuraj/frontend-starter-kit/issues"
-  },
-  "homepage": "https://github.com/kcsuraj/frontend-starter-kit#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
     "browser-sync": "^2.26.3",
